@@ -611,14 +611,15 @@ button:hover {
 
 /* CONTACT SECTION */
 
-.contact-container{ margin: 0; font-family: Arial, sans-serif; line-height: 1.6; 
+.contact-container
+{ margin: 0; 
+  padding: 20px;
+  font-family: Arial, sans-serif; line-height: 1.6; 
   background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216') no-repeat center/cover;
-  margin: 50px auto;
-  padding: 50px;
+  filter: brightness(60%);
 }
 
 .contact-container header {
-    margin: 20px;
   color: white;
   display: flex;
   align-items: center;
@@ -626,9 +627,9 @@ button:hover {
   text-align: center;
 }
 
-header h1 { 
+.contact-container header h1 { 
   font-size: 3rem; 
-  background: rgba(0,0,0,0.5); 
+  background: rgba(236, 230, 230, 0.5); 
   padding: 10px 20px; 
 }
 
@@ -673,8 +674,13 @@ form button:hover {
    margin-top: 10px; font-weight: bold; 
   }
 
+  .contact-container p, h2, h1{
+    color: white;
+  }
+
 .info, .faq { 
-  margin-top: 30px; 
+  margin: 50px; 
+  color: white;
 }
 
 iframe { 
