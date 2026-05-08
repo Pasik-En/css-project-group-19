@@ -42,6 +42,10 @@ a {
   padding: 15px 8%;
   background: #111;
   color: white;
+  position: fixed;
+ top: 0;
+ z-index: 100;
+ width: 100%;
 }
 
 .logo {
@@ -551,7 +555,7 @@ section p {
 /* BUTTON */
 button {
     /* background-color: #2563eb; */
-    color: white;
+    color: black;
     border: none;
     padding: 10px 18px;
     margin-top: 12px;
